@@ -1,0 +1,54 @@
+# ==================== STM32 ====================
+# STM32CubeMX 本地配置
+.mxproject
+
+# MDK-ARM 编译产物
+MDK-ARM/*.bak
+MDK-ARM/Objects/
+MDK-ARM/Listings/
+MDK-ARM/*.dep
+MDK-ARM/*.uvguix.*
+MDK-ARM/*.scvd
+
+# 编译输出
+*.o
+*.d
+*.su
+*.axf
+*.bin
+*.elf
+*.hex
+*.map
+*.lst
+*.crf
+*.htm
+*.sct
+*.lnp
+*.plg
+*.iex
+*.i
+
+# ==================== Unity ====================
+# Unity 临时文件
+Library/
+Temp/
+Obj/
+Logs/
+UserSettings/
+
+# Visual Studio
+.vs/
+*.csproj.user
+*.suo
+
+# ==================== 通用 ====================
+# 系统文件
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
